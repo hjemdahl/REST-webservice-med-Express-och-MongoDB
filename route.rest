@@ -13,7 +13,7 @@ Content-Type: application/json
     "date": "1999-12-30",
     "title": "Gummi",
     "price": 100,
-    "category": "Nöje"
+    "category": "Hemmet"
 }
 
 ###

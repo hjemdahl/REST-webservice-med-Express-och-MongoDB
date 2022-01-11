@@ -16,7 +16,8 @@ const expenseSchema = new mogoose.Schema({
     },
     category: {
         type: String,
-        required: true
+        required: true,
+        default: 'Annat'
     }
 })
 

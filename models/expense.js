@@ -8,16 +8,19 @@ const expenseSchema = new mogoose.Schema({
     },
     title: {
         type: String,
-        required: true
+        required: true,
+        minlength: 1,
+        maxlength: 35
     },
     price: {
         type: Number,
-        required: true
+        required: true,
+        min: 1,
+        max: 1000000
     },
     category: {
         type: String,
-        required: true,
-        default: 'Annat'
+        required: true
     }
 })
 

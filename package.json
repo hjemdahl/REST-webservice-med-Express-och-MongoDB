@@ -1,5 +1,5 @@
 {
-  "name": "uppgiftskollen_rest",
+  "name": "utgiftskollen_rest",
   "version": "1.0.0",
   "description": "REST-webservice with express and mongoDB",
   "main": "app.js",

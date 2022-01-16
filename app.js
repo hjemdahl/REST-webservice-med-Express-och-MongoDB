@@ -1,4 +1,3 @@
-require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
@@ -10,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 
 /* Database connection with error/sucsess logging */
-mongoose.connect(process.env.DATABASE_URL)
+mongoose.connect('mongodb+srv://moah:PelleKall3@cluster0.c64wk.mongodb.net/expenses?retryWrites=true&w=majority')
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Conntected to db'))

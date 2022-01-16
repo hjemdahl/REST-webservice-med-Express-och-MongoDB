@@ -4,6 +4,7 @@
   "description": "REST-webservice with express and mongoDB",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "devStart": "nodemon app.js"
   },
   "author": "Moa Hjemdahl",
